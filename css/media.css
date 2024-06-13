@@ -1,0 +1,112 @@
+@media (min-width:1200px) {
+    .pricing .box.populer{
+        transform: translateY(-20px);
+    }
+}
+@media (max-width:991px) {
+    .landing .image{
+        display: none;
+    }
+    .landing .text{
+        text-align: center;
+    }
+    .landing .text p{
+        margin: 10px auto;
+    }
+    .header .mega-menu img{
+        display: none;
+    }
+    .our-skills img{
+        display: none;
+    }
+    .work-steps .container{
+        flex-direction: column;
+    }
+    .work-steps .image{
+        margin: 0 0 70px;
+    }
+    .events .container img{
+        display: none;
+    }
+    .videos .holder{
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width:767px) {
+    .header .logo{
+        width: 100%;
+        height: 50px;
+    }
+    .header .main-nav{
+        margin: auto;
+    }
+    .header .main-nav > li > a {
+        padding: 10px;
+        font-size: 14px;
+        height: 40px;
+    }
+    .landing .text h1{
+        font-size: 28px;
+    }
+    .landing .text p{
+        font-size: 18px;
+    }
+    .header .mega-menu{
+        flex-direction: column;
+        gap: 0;
+        padding: 5px;
+    }
+    .header .mega-menu .links:first-of-type li:last-child{
+        border-bottom: 1px solid #e9e6e6 ;
+    }
+    .work-steps .info .box {
+        flex-direction: column;
+        text-align: center;
+    }
+    .events .subscribe form{
+        max-width: 100%;
+        padding: 20px;
+        flex-direction: column;
+        border-radius: 6px;
+    }
+    .events .subscribe form input[type="email"],
+    .events .subscribe form input[type="submit"]{
+        border-radius: 6px;
+    }
+    .events .subscribe form input[type="email"]::placeholder{
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer .box .social{
+        justify-content: center;
+    }
+    .footer .box .line{
+        flex-direction: column;
+    }
+}
+
+/* start grid system */
+
+@media (min-width:576px) { /*small devices => land scape phones*/
+    .container{
+        width: 540px;
+    }
+}
+@media (min-width:767px) { /*Medium devices => Taplets*/
+    .container{
+        width: 720px;
+    }
+}
+@media (min-width:991px) { /*Desktop*/
+    .container{
+        width: 960px;
+    }
+}
+@media (min-width:1200px) { /*Large screen*/
+    .container{
+        width: 1170px;
+    }
+}
+/* End grid system */ 
